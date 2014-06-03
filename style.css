@@ -176,20 +176,46 @@ color: #e10035;
 }
 /*Stephen Changes*/
 .header_acct {
-    padding: 10px 9px 19.5px 50px;
+    line-height: 2.5;
+    padding: 10px 9px 12.5px 50px;
+    background: url("http://peaslee.virstorhosting.com/presco/icon_account.jpg") no-repeat scroll 5px 10px #00AACB;
 }
-#header_mainmenu .mm_shopcart {
-    padding: 22px 20px 10px 4px;
-}
-.header_live_chat {
-    padding: 10px 10px 19.5px 50px;
-}
-/*Price alignment of text*/
 .price {
+    line-height: 1;
+    vertical-align: middle;
+}
+/*Compare icon*/
+.header_live_chat {
+background: url("http://peaslee.virstorhosting.com/presco/icon_compare.jpg") no-repeat scroll 5px 10px #00AACB;
+}
+/*Shopping cart icon*/
+.block-cart-header {
+  background: url("http://peaslee.virstorhosting.com/presco/icon_cart.jpg") no-repeat scroll ;
+}
+/*Shopping cart alignment*/
+#header_mainmenu .mm_shopcart {
+    padding: 20px 20px 10px 5px;
+    margin: 2px 0 0 2px !important;
+}
+.mm_shopcart {
+    margin: 0 !important;
+    text-align: center !important;
+    width: 108px !important;
+}
+/*Move Blog & Contacts to top*/
+.level0.nav-7.level-top.last {
     position: absolute;
-    right: 0;
-    top: 10px;
-    white-space: nowrap !important;
+    right: -10px;
+    top: -140px;
+}
+.level0.custommenuitem {
+    position: absolute;
+    top: -140px;
+}
+/*Compare btn alignment*/
+.header_live_chat {
+    line-height: 2.6;
+    padding: 10px 15px 10.5px 50px;
 }
 /*Temporary Remove Home button*/
 #header_mainmenu > div > a.header_home {
