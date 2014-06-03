@@ -181,6 +181,11 @@ color: #e10035;
 #header_mainmenu > div > a.header_home {
     display: none !important;
 }
+/*hide basket title*/
+.block-cart-header .button-show a {
+    color: #FFFFFF;
+    display: none;
+}
 /*MEDIA QUERIES*/
 @media only screen
 and (max-width : 1000px) {
