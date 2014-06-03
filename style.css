@@ -184,6 +184,13 @@ color: #e10035;
 .header_live_chat {
     padding: 10px 10px 19.5px 50px;
 }
+/*Price alignment of text*/
+.price {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    white-space: nowrap !important;
+}
 /*Temporary Remove Home button*/
 #header_mainmenu > div > a.header_home {
     display: none !important;
