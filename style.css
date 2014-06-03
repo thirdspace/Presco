@@ -174,3 +174,11 @@ color: #e10035;
 	color: #fff;
 	text-transform: uppercase;
 }
+
+/*MEDIA QUERIES*/
+@media only screen
+and (min-width : 1000px) {
+.page, .footer-social, .additional-footer, .footer {
+        width: 90% !important;
+}
+}
