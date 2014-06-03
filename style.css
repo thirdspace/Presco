@@ -186,16 +186,30 @@ color: #e10035;
 }
 /*Compare icon*/
 .header_live_chat {
-background: url("http://peaslee.virstorhosting.com/presco/icon_compare.jpg") no-repeat scroll 5px 10px #00AACB;
+    background: url("http://peaslee.virstorhosting.com/presco/icon_compare.jpg") no-repeat scroll 5px 10px #00AACB;
 }
 /*Shopping cart icon*/
 .block-cart-header {
-  background: url("http://peaslee.virstorhosting.com/presco/icon_cart.jpg") no-repeat scroll ;
+    background: url("http://peaslee.virstorhosting.com/presco/icon_cart.jpg") no-repeat scroll ;
+}
+/* TEMPORARY products banner height fix */
+.header_prod_prntr {
+    height: 33px;
+    padding: 5px 10px 17px 60px;
+    line-height: 1.7em;
 }
 /*Shopping cart alignment*/
 #header_mainmenu .mm_shopcart {
     padding: 20px 20px 10px 5px;
     margin: 2px 0 0 2px !important;
+}
+/*Phone banner text alignment Fix*/
+#phone {
+line-height: 1.2em;
+}
+/*Visual Indext text alignment*/
+#visual-product-index a {
+line-height: 1.2em;
 }
 .mm_shopcart {
     margin: 0 !important;
