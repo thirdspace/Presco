@@ -174,8 +174,15 @@ color: #e10035;
 	color: #fff;
 	text-transform: uppercase;
 }
-.header_home {
-    display: none;
+/*Stephen Changes*/
+.header_acct {
+    padding: 10px 9px 19.5px 50px;
+}
+#header_mainmenu .mm_shopcart {
+    padding: 22px 20px 10px 4px;
+}
+.header_live_chat {
+    padding: 10px 10px 19.5px 50px;
 }
 /*Temporary Remove Home button*/
 #header_mainmenu > div > a.header_home {
