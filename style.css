@@ -268,6 +268,7 @@ line-height: 1.2em;
     color: #FFFFFF;
     display: none;
 }
+/*MEDIA QUERIES*/
 @media only screen
 and (min-width : 480px) and (max-width : 1000px) {
 .header_prod_prntr {
@@ -281,7 +282,7 @@ and (min-width : 480px) and (max-width : 1000px) {
 #menu-container {
     float: left;
 }
-.page.header_menu {
+.header_menu {
     text-align: right !important;
 }
 }
