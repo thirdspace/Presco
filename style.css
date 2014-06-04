@@ -248,11 +248,11 @@ line-height: 1.2em;
 .level0.nav-7.level-top.last {
     position: absolute;
     right: -10px;
-    top: -140px;
+    top: -110px;
 }
 .level0.custommenuitem {
     position: absolute;
-    top: -140px;
+    top: -110px;
 }
 /*Compare btn alignment*/
 .header_live_chat {
@@ -268,10 +268,39 @@ line-height: 1.2em;
     color: #FFFFFF;
     display: none;
 }
-/*MEDIA QUERIES*/
+@media only screen
+and (min-width : 480px) and (max-width : 1000px) {
+.header_prod_prntr {
+    height: 33px;
+    line-height: 1.7em;
+    padding: 5px 10px 17px 60px;
+    position: absolute;
+    right: 45px;
+    top: 85px;
+}
+#menu-container {
+    float: left;
+}
+.page.header_menu {
+    text-align: right !important;
+}
+}
 @media only screen
 and (max-width : 1000px) {
 .page, .footer-social, .additional-footer, .footer {
         width: 90% !important;
+}
+#header_mainmenu .mm_logo {
+   display: block !important;
+    left: 20px !important;
+    position: absolute;
+    top: 30px !important;
+    width: 240px !important;
+}
+}
+@media only screen
+and (min-width : 1000px) {
+#header_mainmenu .mm_logo {
+    margin-bottom: -100px;
 }
 }
