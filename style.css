@@ -179,7 +179,6 @@
         text-transform: uppercase;
     }
     /*Stephen Changes*/
-
     /* TEMPORARY DEMO NOTICE REMOVE */
     .demo-notice {
     display: none;
@@ -600,10 +599,12 @@ and (max-width : 430px) {
     .footer-about {
         width: 90% !important;
     }
+    }
     @media only screen
     and (min-width : 1000px) {
     #header_mainmenu .mm_logo {
         margin-bottom: -100px;
+        margin-right: 0 !important;
     }
     .nav-1 {
       margin-left: 65px;  
