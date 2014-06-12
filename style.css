@@ -258,6 +258,8 @@
     /*Release constraints on full visual index*/
     .visualBox .rightBox {
     width: 100% !important;
+    padding-left: 10px;
+    color: #ffffff;
     }
     /*Phone banner text alignment Fix*/
     #phone {
@@ -272,6 +274,13 @@
         margin: 0 !important;
         text-align: center !important;
         width: 108px !important;
+    }
+    /*Filter button styling*/
+    .filterList > li {
+    margin: 4px;
+    }
+    .visualFilter ul > li a {
+    color: #ffffff; 
     }
     /*Move Blog & Contacts to top*/
     .level0.nav-7.level-top.last {
@@ -297,6 +306,15 @@
         color: #FFFFFF;
         display: none;
     }
+    /* Help Products flow */
+.products-grid li.item {
+    float: left !important;
+    margin: 0 auto !important;
+    padding: 5px;
+}
+.box-product-item {
+    width: 183px !important;
+}
     /*MEDIA QUERIES*/
  @media only screen
    and (max-width : 450px) {
