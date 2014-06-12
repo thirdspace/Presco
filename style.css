@@ -306,6 +306,14 @@
         color: #FFFFFF;
         display: none;
     }
+.visualBox .leftBox {
+    width: 100%;
+}
+div.search-bar #search input {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #CFCFCF;
+    width: 240px;
+}
     /* Help Products flow */
 .products-grid li.item {
     float: left !important;
@@ -314,6 +322,9 @@
 }
 .box-product-item {
     width: 183px !important;
+}
+ul.products-grid {
+    display: inline !important;
 }
     /*MEDIA QUERIES*/
  @media only screen
