@@ -251,6 +251,10 @@
    .block-cart-header .button-show {
     padding-top: 7px !important;
     }
+    /*Reduce minimum content block height for mobile*/
+    .account-login .content {
+    min-height: 100px;
+    }
     /*Phone banner text alignment Fix*/
     #phone {
     line-height: 1.2em;
