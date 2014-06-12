@@ -496,6 +496,14 @@ ul.products-grid {
     }
 }
 @media only screen
+    and (max-width : 775px) {
+    .visualBox {
+    background: none repeat scroll 0 0 #5FB246;
+    margin: 40px 0;
+    padding: 15px 10px;
+}
+}
+@media only screen
     and (min-width: 533px) and (max-width : 630px) {
     #menu-container {
         margin-top: 120px !important;
