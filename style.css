@@ -247,7 +247,7 @@
     }
     /*Shopping cart alignment*/
     #header_mainmenu .mm_shopcart {
-        padding: 20px 20px 11px 5px;
+        padding: 20px 20px 12px 5px;
         margin: 2px 0 0 2px !important;
     }
    .block-cart-header .button-show {
@@ -343,7 +343,7 @@ div.search-bar #search input {
 }
 /*top message*/
  @media only screen
-   (max-width : 500px) and (max-width : 630px) {
+   and (min-width : 500px) and (max-width : 630px) {
      #header_menu {
         background: none repeat scroll 0 0 #D75F07;
         color: #FFFFFF;
@@ -357,7 +357,7 @@ div.search-bar #search input {
     }
 }
  @media only screen
-   (max-width : 631px) and (max-width : 830px) {
+   and (min-width : 631px) and (max-width : 830px) {
      #header_menu {
         background: none repeat scroll 0 0 #D75F07;
         color: #FFFFFF;
@@ -411,7 +411,7 @@ div.search-bar #search input {
         top: 0 !important;
     }
 .header_prod_prntr {
-    top: 70px !important;
+    top: 85px !important;
     }
 }
     @media only screen
@@ -435,10 +435,6 @@ h1 {
 }
 #menu-container {
     margin-top: 140px;
-    width: 100%;
-}
-.mm_shopcart {
-    width: 95% !important;
 }
 }
 @media only screen
@@ -466,17 +462,8 @@ div.search-bar #search input {
         width: 95%;
     }
     }
- @media only screen
-    and (min-width : 100px) and (max-width : 480px) {
-    #visual-product-index {
-    #header_mainmenu .mm_logo {
-        top: 80px;
-    }
-    }
-    @media only screen
-    and (max-width: 430px) {
-    margin: -10px 0 0 10px;
-        }
+@media only screen
+and (max-width : 430px) {
     .search-bar {
     background-color: none !important;
     background: none !important;
@@ -486,6 +473,16 @@ div.search-bar #search input {
 }
 .visualBox .rightBox {
     padding-top: 50px;
+}
+/*Mobile account toolbox icons*/
+        .mm_shopcart {
+    width: 273px !important;
+}
+.header_live_chat {
+    padding: 10px 27px 10.5px 50px;
+}
+.header_acct {
+    padding: 10px 27px 12.5px 50px;
 }
 }
     @media only screen
@@ -524,7 +521,7 @@ div.search-bar #search input {
         margin-top: 150px;
     }
     #header_mainmenu .mm_logo {
-    top: 110px !important;
+    top: 120px !important;
     }
     .header_prod_prntr {
     top: 53px !important;
@@ -570,7 +567,6 @@ div.search-bar #search input {
         padding: 5px 10px 17px 60px;
         position: absolute;
         right: 45px;
-        top: 85px;
     }
     #menu-container {
         float: left;
@@ -581,6 +577,12 @@ div.search-bar #search input {
     }
     #header_menu {
         text-align: right;
+    }
+    }
+    @media only screen
+    and (min-width : 668px) and (max-width : 1000px) {
+    .iosSlider {
+        height: 350px !important;
     }
     }
     @media only screen
@@ -597,10 +599,6 @@ div.search-bar #search input {
     }
     .footer-about {
         width: 90% !important;
-    }
-    .iosSlider {
-        height: 350px !important;
-    }
     }
     @media only screen
     and (min-width : 1000px) {
