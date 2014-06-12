@@ -255,6 +255,10 @@
     .account-login .content {
     min-height: 100px;
     }
+    /*Release constraints on full visual index*/
+    .visualBox .rightBox {
+    width: 100% !important;
+    }
     /*Phone banner text alignment Fix*/
     #phone {
     line-height: 1.2em;
