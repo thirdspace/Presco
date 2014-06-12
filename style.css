@@ -433,7 +433,14 @@ h1 {
 .visualBox .rightBox {
     padding-top: 20px !important;
 }
-    }
+#menu-container {
+    margin-top: 140px;
+    width: 100%;
+}
+.mm_shopcart {
+    width: 95% !important;
+}
+}
 @media only screen
     and (max-width : 376px) {
      .header_prod_prntr span {
