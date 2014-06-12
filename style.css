@@ -194,6 +194,9 @@
         padding: 10px 9px 12.5px 50px;
         background: url("http://peaslee.virstorhosting.com/presco/icon_account.jpg") no-repeat scroll 5px 10px #00AACB;
     }
+    div.search-bar #search input {
+    width: 240px;
+    }
     .price {
         line-height: 1;
         vertical-align: middle;
@@ -242,12 +245,17 @@
     }
     /*Shopping cart alignment*/
     #header_mainmenu .mm_shopcart {
-        padding: 20px 20px 10px 5px;
+        padding: 20px 20px 11px 5px;
         margin: 2px 0 0 2px !important;
     }
+   .block-cart-header .button-show {
+    padding-top: 7px !important;
+    }
+    }   
     /*Phone banner text alignment Fix*/
     #phone {
     line-height: 1.2em;
+    margin-top: 6px !important;
     }
     /*Visual Indext text alignment*/
     #visual-product-index a {
@@ -284,13 +292,16 @@
     }
     /*MEDIA QUERIES*/
  @media only screen
-   (max-width : 450px) {
+   and (max-width : 450px) {
 .header_prod_prntr {
     right: 20px
 }
 .mm_shopcart {
     width: 100px !important;
 }
+#header_mainmenu .mm_shopcart {
+    padding: 20px 0 12px 10px;
+    }
 }
 /*top message*/
  @media only screen
@@ -377,9 +388,6 @@
      .header_prod_prntr span {
     display: none;
     }
-#header_mainmenu .mm_shopcart {
-    padding: 20px 0 10px 5px;
-    }
     }
     @media only screen
     and (max-width : 478px) {
@@ -432,7 +440,13 @@
     #header_menu {
     font-size: 8pt;
 }
-}   
+}  
+@media only screen
+    and (min-width : 480px) and (max-width : 1000px) { 
+    .block {
+         line-height: 1.35;
+    }
+}
 @media only screen
     and (max-width : 533px) {
     #menu-container {
