@@ -409,7 +409,7 @@ div.search-bar #search input {
  @media only screen
    and (max-width : 450px) {
 .header_prod_prntr {
-    right: 20px
+    right: 0px !important;
 }
 .mm_shopcart {
     width: 100px !important;
@@ -488,7 +488,7 @@ div.search-bar #search input {
         top: 0 !important;
     }
 .header_prod_prntr {
-    top: 85px !important;
+    top: 100px !important;
     }
 }
     @media only screen
@@ -534,7 +534,7 @@ div.search-bar #search input {
     }
     }
 @media only screen
-and (max-width : 430px) {
+and (max-width : 533px) {
     .search-bar {
     background-color: none !important;
     background: none !important;
@@ -573,30 +573,7 @@ and (max-width : 430px) {
     margin-top: 90px !important;
 }
 }
-    @media only screen
-    and (min-width : 470px) and (max-width: 490px) {
-    .header_prod_prntr {
-        width: 230px;
-    }
-}
-    @media only screen
-    and (min-width : 480px) and (max-width : 492px) {
-    #header_mainmenu .mm_logo {
-        top: 60px;
-    }
-    .header_prod_prntr {
-        top: 105px !important;
-    }
-    #menu-container {
-        margin-top: 170px;
-    }
-    }
-  @media only screen
-    and (max-width : 500px) {
-    #header_menu {
-    font-size: 8pt;
-}
-}  
+  
 @media only screen
     and (min-width : 480px) and (max-width : 1000px) { 
     .block {
@@ -631,6 +608,12 @@ and (max-width : 430px) {
     #menu-container {
         margin-top: 120px !important;
     }
+  #header_mainmenu #logo-container .mm_logo {
+        top: 45px !important;
+    }
+.header_prod_prntr {
+    top: 50px !important;
+}
 }
 @media only screen 
     and (min-width : 630px) and (max-width : 830px) {
@@ -647,7 +630,7 @@ and (max-width : 430px) {
 @media only screen
     and (min-width : 533px) and (max-width : 830px)  {
     .header_prod_prntr {
-        top: 35px !important;
+        top: 45px !important;
 }
 }
     @media only screen
@@ -685,11 +668,14 @@ and (max-width : 430px) {
         display: block !important;
         left: 20px !important;
         position: absolute;
-        top: 30px;
+        top: 30px !important;
         width: 240px !important;
     }
     .footer-about {
         width: 90% !important;
+    }
+    #menu-container {
+        margin-top: 30px;
     }
     }
     @media only screen
