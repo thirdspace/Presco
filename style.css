@@ -303,30 +303,6 @@ bottom: 7px;
         vertical-align: middle;
     }
     /*Header prod partner banner*/
-    .header_prod_prntr {
-    background: url("http://peaslee.virstorhosting.com/presco/greenpattern.jpg") repeat scroll 5px 10px #5EB146;
-    position: relative;
-    padding: 5px 115px 17px 60px !important;
-    
-    }
-    .header_prod_prntr:before {
-    content: '';
-    width: 52px;
-    height: 45px;
-    left: 0px;
-    top: 1px;
-    position: absolute;
-    background: url("http://peaslee.virstorhosting.com/presco/checkmark.png") no-repeat scroll 5px 10px
-    }
-    .header_prod_prntr:after {
-    content: '';
-    background: url("http://peaslee.virstorhosting.com/presco/thumb_products.png") no-repeat scroll 5px 10px;
-    right: 0;
-    top: -18px;
-    position: absolute;
-    width: 126px;
-    height: 80px;
-    }
     #header_mainmenu > div > a {
         text-align: left;
     }
