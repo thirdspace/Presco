@@ -48,9 +48,6 @@
     h1.products-block-header {
         color:#414042 !important;
     }
-    #nav > li > a {
-    padding-right: 8px !important;;
-    }
     button.button:hover, #nav > li > ul > li ul > li a:hover, .mm_shopcart, .box-product-item .btn-wish:hover,.box-product-item .btn-compare:hover, .left-categorys a:hover, .block-layered-nav dd li:hover, #search .button-search:hover, .product-view .product-img-box .main-image .lightbox-btn a:hover, .product-view-buttons-advance .btn-wish:hover, .product-view-buttons-advance .btn-compare:hover, #message a:hover, .quantity_box_button_up:hover, .quantity_box_button_down:hover {
         background-color: #00aacb!important;
     }
@@ -165,19 +162,123 @@
             top:1px;
             left:1px;
     }
+    
     #sampleproduct {
         padding: 10px;
         background: #00aacb;
         color: #fff;
         text-transform: uppercase;
+font-size: 12px;
     }
     
     #sampleproduct label {
         color: #fff;
         text-transform: uppercase;
     }
-    /*Stephen Changes*/
 
+.sample-b-black { display: block;
+float: right;
+color: #000;
+font-size: 10px;
+text-align: right;
+text-transform: none;
+margin: 5px 5px 0 0;
+}
+
+.box-product-item .link-cart {
+background: none;
+font-size: 12px;
+padding-right: 1px;
+text-decoration: underline;
+right: 10px;
+position: absolute;
+cursor: pointer;
+display: none;
+color: #fff;
+bottom: 11px;
+z-index: 10;
+}
+ 
+#nav .custommenuitem {
+float: left;
+}
+
+#nav > li > a > span {
+font-size: 11px;
+}
+
+#visual-product-index {
+background: url("/skin/frontend/default/metroshop/images/sqaureicon.gif") no-repeat scroll 0 7px #E4004B;
+float: left;
+height: 42px;
+margin: -10px 0 0 124px;
+padding: 22px 10px 0;
+width: 215px;
+}
+
+.header_prod_prntr {
+color: #555;
+padding: 9px 10px 12px 60px;
+text-align: right;
+margin: 2px;
+background: url("/skin/frontend/default/metroshop/images/menu/header_prdct.jpg") no-repeat scroll 5px 10px #5EB146;
+}
+
+#header_mainmenu .mm_shopcart {
+background: url("/skin/frontend/default/metroshop/images/menu/header_basket.jpg") no-repeat scroll 5px 10px #5EB146;
+float: left;
+display: block;
+text-decoration: none;
+margin: 2px 0 0 2px;
+width: 62px;
+padding: 16.5px 10px 15.5px 54px;
+height: 25px;
+position: relative;
+}
+
+.mini-sliders {
+width: 283px;
+float: left;
+padding: 1px 0 0 7px;
+}
+
+.welcome-buttons img.sale {
+padding-left: 7px;
+}
+
+
+#footer .column {
+float: left;
+width: 18%;
+padding: 0 0 0 15px;
+}
+
+.minimal-price-link {
+font-size: 12px;
+}
+
+.box-product-item .price {
+display: inline;
+color: #FFAA31;
+margin-bottom: 4px;
+margin-left: 4px;
+line-height: 19px;
+font-weight: 400;
+text-align: left;
+font-size: 14px;
+padding-left: 10px;
+padding-right: 0px;
+}
+
+.box-product-item .price-box {
+float: none;
+margin: 0 0 0 10px !important;
+width: 100%!important;
+position: absolute;
+bottom: 7px;
+}
+
+ /*Stephen Changes*/
     /* TEMPORARY DEMO NOTICE REMOVE */
     .demo-notice {
     display: none;
@@ -245,7 +346,7 @@
     }
     /*Shopping cart alignment*/
     #header_mainmenu .mm_shopcart {
-        padding: 20px 20px 11px 5px;
+        padding: 20px 20px 12px 5px;
         margin: 2px 0 0 2px !important;
     }
    .block-cart-header .button-show {
@@ -323,7 +424,7 @@ div.search-bar #search input {
 .box-product-item {
     width: 183px !important;
 }
-ul.products-grid {
+.products-grid {
     display: inline !important;
 }
     /*MEDIA QUERIES*/
@@ -341,7 +442,7 @@ ul.products-grid {
 }
 /*top message*/
  @media only screen
-   (max-width : 500px) and (max-width : 630px) {
+   and (min-width : 500px) and (max-width : 630px) {
      #header_menu {
         background: none repeat scroll 0 0 #D75F07;
         color: #FFFFFF;
@@ -355,7 +456,7 @@ ul.products-grid {
     }
 }
  @media only screen
-   (max-width : 631px) and (max-width : 830px) {
+   and (min-width : 631px) and (max-width : 830px) {
      #header_menu {
         background: none repeat scroll 0 0 #D75F07;
         color: #FFFFFF;
@@ -409,7 +510,7 @@ ul.products-grid {
         top: 0 !important;
     }
 .header_prod_prntr {
-    top: 70px !important;
+    top: 85px !important;
     }
 }
     @media only screen
@@ -418,7 +519,23 @@ ul.products-grid {
         width: 110px;
         right: 10px !important;
     }
-    }
+.visualFilter span {
+    padding-right: 80px;
+}
+h1 {
+    color: #00AACB !important;
+    font-size: 2.2em;
+    padding-left: 10px;
+    text-transform: uppercase;
+    width: 70%;
+}
+.visualBox .rightBox {
+    padding-top: 20px !important;
+}
+#menu-container {
+    margin-top: 140px;
+}
+}
 @media only screen
     and (max-width : 376px) {
      .header_prod_prntr span {
@@ -433,6 +550,9 @@ ul.products-grid {
     .demo-notice {
     display: none;
     }
+div.search-bar #search input {
+    width: 70%;
+}
     #header_menu {
         margin-left: -30px;
         padding: 5px 40px 5px 20px;
@@ -441,18 +561,29 @@ ul.products-grid {
         width: 95%;
     }
     }
- @media only screen
-    and (min-width : 100px) and (max-width : 480px) {
-    #visual-product-index {
-    #header_mainmenu .mm_logo {
-        top: 80px;
-    }
-    }
-    @media only screen
-    and (max-width: 430px) {
-    margin: -10px 0 0 10px;
-        }
-    }
+@media only screen
+and (max-width : 430px) {
+    .search-bar {
+    background-color: none !important;
+    background: none !important;
+}
+#visual-product-index {
+    margin: 0;
+}
+.visualBox .rightBox {
+    padding-top: 50px;
+}
+/*Mobile account toolbox icons*/
+        .mm_shopcart {
+    width: 273px !important;
+}
+.header_live_chat {
+    padding: 10px 27px 10.5px 50px;
+}
+.header_acct {
+    padding: 10px 27px 12.5px 50px;
+}
+}
     @media only screen
     and (min-width : 470px) and (max-width: 490px) {
     .header_prod_prntr {
@@ -488,8 +619,11 @@ ul.products-grid {
     #menu-container {
         margin-top: 150px;
     }
+    a.header_live_chat{
+        display: none !important;
+    }
     #header_mainmenu .mm_logo {
-    top: 110px !important;
+    top: 120px !important;
     }
     .header_prod_prntr {
     top: 53px !important;
@@ -499,7 +633,7 @@ ul.products-grid {
     and (max-width : 775px) {
     .visualBox {
     background: none repeat scroll 0 0 #5FB246;
-    margin: 40px 0;
+    margin: 10px 0;
     padding: 15px 10px;
 }
 }
@@ -535,7 +669,6 @@ ul.products-grid {
         padding: 5px 10px 17px 60px;
         position: absolute;
         right: 45px;
-        top: 85px;
     }
     #menu-container {
         float: left;
@@ -546,6 +679,12 @@ ul.products-grid {
     }
     #header_menu {
         text-align: right;
+    }
+    }
+    @media only screen
+    and (min-width : 668px) and (max-width : 1000px) {
+    .iosSlider {
+        height: 350px !important;
     }
     }
     @media only screen
@@ -568,6 +707,7 @@ ul.products-grid {
     and (min-width : 1000px) {
     #header_mainmenu .mm_logo {
         margin-bottom: -100px;
+        margin-right: 0 !important;
     }
     .nav-1 {
       margin-left: 65px;  
