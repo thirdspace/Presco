@@ -585,6 +585,9 @@ and (max-width : 430px) {
     float: right !important;
     width: 40% !important;
 }
+#menu-container {
+    width: 100%;
+}
 }
     @media only screen
     and (min-width : 470px) and (max-width: 490px) {
