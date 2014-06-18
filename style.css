@@ -319,6 +319,8 @@ bottom: 7px;
         height: 33px;
         padding: 5px 10px 17px 60px;
         line-height: 1.7em;
+        background: none !important;
+        color: #000000 !important;
     }
     /*Shopping cart alignment*/
     #header_mainmenu .mm_shopcart {
@@ -563,6 +565,10 @@ and (max-width : 430px) {
 }
 #menu-container {
     width: 100%;
+}
+#header_mainmenu .mm_logo {
+    left: 10px !important;
+    top: 45px !important;
 }
 }
     @media only screen
