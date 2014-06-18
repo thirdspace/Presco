@@ -409,7 +409,7 @@ div.search-bar #search input {
  @media only screen
    and (max-width : 450px) {
 .header_prod_prntr {
-    right: 0px !important;
+    right: 20px
 }
 .mm_shopcart {
     width: 100px !important;
@@ -488,14 +488,14 @@ div.search-bar #search input {
         top: 0 !important;
     }
 .header_prod_prntr {
-    top: 100px !important;
+    top: 10px !important;
     }
 }
     @media only screen
     and (max-width : 330px) {
     .header_prod_prntr {
         width: 110px;
-        right: 0px !important;
+        right: 10px !important;
     }
 .visualFilter span {
     padding-right: 80px;
@@ -593,7 +593,6 @@ and (max-width : 533px) {
     }
     .header_prod_prntr {
     top: 53px !important;
-    right: 0;
     }
 }
 @media only screen
@@ -635,7 +634,7 @@ and (max-width : 533px) {
 }
 }
     @media only screen
-    and (min-width : 534px) and (max-width : 1000px) {
+    and (min-width : 280px) and (max-width : 1000px) {
     .header_prod_prntr {
         height: 33px;
         line-height: 1.7em;
