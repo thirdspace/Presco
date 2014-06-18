@@ -574,14 +574,16 @@ and (max-width : 430px) {
     padding-top: 50px;
 }
 /*Mobile account toolbox icons*/
-        .mm_shopcart {
-    width: 273px !important;
-}
 .header_live_chat {
     padding: 10px 27px 10.5px 50px;
 }
 .header_acct {
     padding: 10px 27px 12.5px 50px;
+    width: 20%;
+}
+#cart {
+    float: right !important;
+    width: 40% !important;
 }
 }
     @media only screen
