@@ -510,17 +510,11 @@ h1 {
 .visualBox .rightBox {
     padding-top: 20px !important;
 }
-#menu-container {
-    margin-top: 140px;
+.header_prod_prntr span {
+    float: left;
 }
 }
 @media only screen
-    and (max-width : 376px) {
-     .header_prod_prntr span {
-    display: none;
-    }
-    }
-    @media only screen
     and (max-width : 478px) {
     #menu-container {
         margin-top: 120px;
@@ -566,9 +560,17 @@ and (max-width : 430px) {
 #menu-container {
     width: 100%;
 }
-#header_mainmenu .mm_logo {
-    left: 10px !important;
+#header_mainmenu #logo-container .mm_logo {
+    left: -10px !important;
     top: 45px !important;
+}
+.header_prod_prntr {
+    width: 140px;
+    right: 0 !important;
+    font-size: 8pt;
+}
+#menu-container {
+    margin-top: 90px !important;
 }
 }
     @media only screen
