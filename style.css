@@ -197,16 +197,8 @@ display: none;
 color: #fff;
 bottom: 11px;
 z-index: 10;
+    
 }
- 
-#nav .custommenuitem {
-float: left;
-}
-
-#nav > li > a > span {
-font-size: 11px;
-}
-
 #visual-product-index {
 background: url("/skin/frontend/default/metroshop/images/sqaureicon.gif") no-repeat scroll 0 7px #E4004B;
 float: left;
@@ -284,12 +276,6 @@ bottom: 7px;
     display: none;
     }
     /* END TEMPORARY DEMO NOTICE REMOVE */
-    #nav > li.nav-6 > a {
-    border-right: none !important;
-    }
-    #nav > li.nav-7 a, #nav > li.custommenuitem a {
-    color: #afafaf !important;
-    }
     .header_acct {
         line-height: 2.5;
         padding: 10px 9px 12.5px 50px;
@@ -360,16 +346,6 @@ bottom: 7px;
     }
     .visualFilter ul > li a {
     color: #ffffff; 
-    }
-    /*Move Blog & Contacts to top*/
-    .level0.nav-7.level-top.last {
-        position: absolute;
-        right: -10px;
-        top: -110px;
-    }
-    .level0.custommenuitem {
-        position: absolute;
-        top: -110px;
     }
     /*Compare btn alignment*/
     .header_live_chat {
@@ -683,16 +659,6 @@ and (max-width : 533px) {
     #header_mainmenu .mm_logo {
         margin-bottom: -100px;
         margin-right: 0 !important;
-    }
-    .nav-1 {
-      margin-left: 65px;  
-    }
-    li.nav-7 a, li.custommenuitem a {
-    margin-left: -65px;
-    padding: 5px;
-    height: 10px;
-    font-size: 11pt;
-    font-weight: 400;
     }
 .level0.nav-7.level-top.last {
     margin-left: -25px;
