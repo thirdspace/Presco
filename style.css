@@ -197,8 +197,16 @@ display: none;
 color: #fff;
 bottom: 11px;
 z-index: 10;
-    
 }
+ 
+#nav .custommenuitem {
+float: left;
+}
+
+#nav > li > a > span {
+font-size: 11px;
+}
+
 #visual-product-index {
 background: url("/skin/frontend/default/metroshop/images/sqaureicon.gif") no-repeat scroll 0 7px #E4004B;
 float: left;
@@ -269,6 +277,7 @@ width: 100%!important;
 position: absolute;
 bottom: 7px;
 }
+
 
  /*Stephen Changes*/
     /* TEMPORARY DEMO NOTICE REMOVE */
